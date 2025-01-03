@@ -1,0 +1,2 @@
+# kalkulatror
+# kalkulator

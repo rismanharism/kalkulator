@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <h1>Riwayat kalkulator</h1>
+  <ul>
+    <% calculations.forEach(calc => { %>
+      <li><%= calc.operation %>: <%= calc.result %></li>
+    <% }) %>
+  </ul>
+  <a href="/">Kembali</a>
+</body>
+</html>
